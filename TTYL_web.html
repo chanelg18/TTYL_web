@@ -1,32 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="TTYL_web.css" rel="stylesheet">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-<title>Page Title</title>
-<div class="bg"></div>
-<div class="jumbotron">
-  <h1>Bootstrap Jumbotron</h1>
-  <p class="lead">+ Parallax Effect using jQuery</p>
-</div>
+<!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<style>
+.navbar{
+background-color:#1abc9c;
+
+color:#000000;
+}
+
+
+</style>
+
+<title>Bootstrap Example</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div id= "text" class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TTYL</a>
+    </div>
+    <ul class="nav navbar-nav">
+	<li class="active"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">TTYL<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Andriod</a></li>
+          <li><a href="#">ios</a></li>
+		</ul>
+      </li>
+      <li><a href="#">Our Team</a></li> 
+      <li><a href="#">Our Mission</a></li> 
+    </ul>
+  </div>
+</nav>
+<style>
+	.jumbotron{
+	color:#ffffff;
+	text-align:center;
+	}
+</style>
+<div class="jumbotron" style="background-image:url('road_drive.jpg'); background-position:right; background-repeat:no-repeat;"
+<div class="jumbotron">  
+    <div class="container">
+        <h1>Finally an app for a safe driving experience!</h1>
+        
+    </div>
+</div>  
+<style>
+  .bg-1 {
+      background-color: #1abc9c;
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  </style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="container-fluid bg-1 text-center">
+  <h3>TTYL</h3>
+  <img src="10.png" class="img-circle" alt="Bird" width="450" height="350">
+  <h3>Nelly the Nut </h3>
+</div>
 
+<div class="container-fluid bg-2 text-center">
+  <h3>Why a pistachio?</h3>
+  <p>A pistachio nut is covered and protected inside a shell.Our app relates to a pistachio because our app protects people from getting into a car accident!  </p>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+  <h3>Charities </h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+<style>
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+	
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="img">
+  <a target="_blank" href="Plantlife.jpg">
+    <img src="Plantlife.jpg" alt="Plantlife charity" class="center-block">
+  </a>
+  <div class="desc">Plantlife is dedicated to conserving endagered plant species</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="stoptext.jpg">
+    <img src="stoptext.jpg" alt="Stop texting and driving campaign" class="center-left">
+  </a>
+  <div class="desc">A campaign by the ad council that warns teens about the dangers of texting and driving</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="Stopdistractions.png">
+    <img src="Stopdistractions.png" alt="stop distractions campaign"class="center-right">
+  </a>
+  <div class="desc">A grassroots nonprofit organization that helps eliminate the devastations of car accidents caused by text messaging</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="green.png">
+    <img src="green.png" alt="Nature conservatory" class="center-left">
+  </a>
+  <div class="desc">A charity that helps conserve trees </div>
+</div>
 </body>
 </html>
