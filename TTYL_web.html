@@ -25,28 +25,30 @@ color:#000000;
 
 </style>
 
-<title>Bootstrap Example</title>
-</head>
-<body>
-<nav class="navbar navbar-inverse">
-  <div id= "text" class="container-fluid">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
       <a class="navbar-brand" href="#">TTYL</a>
     </div>
-    <ul class="nav navbar-nav">
-	<li class="active"><a href="#">Home</a></li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">TTYL<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Andriod</a></li>
-          <li><a href="#">ios</a></li>
-		</ul>
-      </li>
-      <li><a href="#">Our Team</a></li> 
-      <li><a href="#">Our Mission</a></li> 
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#mission">OUR MISSION</a></li>
+        <li><a href="#services">TTYL</a></li>
+        <li><a href="#portfolio">PORTFOLIO</a></li>
+        <li><a href="#Statistics">STATISTICS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
+
 <style>
 	.jumbotron{
 	color:#ffffff;
@@ -88,8 +90,8 @@ color:#000000;
 </div>
 
 <div class="container-fluid bg-2 text-center">
-  <h3>Why a pistachio?</h3>
-  <p>A pistachio nut is covered and protected inside a shell.Our app relates to a pistachio because our app protects people from getting into a car accident!  </p>
+  <h3>something</h3>
+  <p>asgkfgothttphlpt  </p>
 </div>
 
 <div class="container-fluid bg-3 text-center">
@@ -122,32 +124,32 @@ div.desc {
 </head>
 <body>
 
-<div class="img">
-  <a target="_blank" href="Plantlife.jpg">
-    <img src="Plantlife.jpg" alt="Plantlife charity" class="center-block">
-  </a>
-  <div class="desc">Plantlife is dedicated to conserving endagered plant species</div>
+
+<div class="container-fluid text-center bg-grey">
+  
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Plantlife.jpg" alt="Paris">
+        <p><strong>Paris</strong></p>
+        <p>Yes, we built Paris</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="stoptext.jpg" alt="New York">
+        <p><strong>New York</strong></p>
+        <p>We built New York</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="green_logo.png" alt="San Francisco">
+        <p><strong>San Francisco</strong></p>
+        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
 </div>
 
-<div class="img">
-  <a target="_blank" href="stoptext.jpg">
-    <img src="stoptext.jpg" alt="Stop texting and driving campaign" class="center-left">
-  </a>
-  <div class="desc">A campaign by the ad council that warns teens about the dangers of texting and driving</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="Stopdistractions.png">
-    <img src="Stopdistractions.png" alt="stop distractions campaign"class="center-right">
-  </a>
-  <div class="desc">A grassroots nonprofit organization that helps eliminate the devastations of car accidents caused by text messaging</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="green.png">
-    <img src="green.png" alt="Nature conservatory" class="center-left">
-  </a>
-  <div class="desc">A charity that helps conserve trees </div>
-</div>
 </body>
 </html>
