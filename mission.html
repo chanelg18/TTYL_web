@@ -1,14 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-<link href = "mission.css" rel="stylesheet" type = "text/css"
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Our Mission</title>
- <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="TTYL_web.css" rel="stylesheet">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <!-- Latest compiled and minified CSS -->
+<!-- Latest compiled and minified CSS -->
 <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -17,12 +16,36 @@
 <!-- Latest compiled JavaScript -->
 <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 <style>
+.parallax {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="parallax"></div>
+
+<div style="height:1000px;background-color:red;font-size:36px">
+Scroll Up and Down this page to see the parallax scrolling effect.
+This div is just here to enable scrolling.
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+<style>
 .navbar{
 background-color:#1abc9c;
 
 color:#000000;
 }
-
 
 
 </style>
@@ -41,7 +64,7 @@ color:#000000;
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="file:///C:/Users/CHANEL/Desktop/fwebsite/TTYL_web.html">HOME</a></li>
+        
 		<li><a href ="file:///C:/Users/CHANEL/Desktop/TTYL/Mission.html"> OUR MISSION</a></li>
         <li><a href="#Team">TEAM BIO</a></li>
         <li><a href="#Statistics">STATISTICS</a></li>
@@ -50,72 +73,53 @@ color:#000000;
     </div>
   </div>
 </nav>
+
+<style>
+	.jumbotron{
+	color:#ffffff;
+	text-align:center;
+	}
+</style>
+<div class="jumbotron" style="background-image:url('road_drive.jpg'); background-position:right; background-repeat:no-repeat;"
+<div class="jumbotron">  
+    <div class="container">
+        <h1>Finally an app for a safe driving experience!</h1>
+        
+    </div>
+</div>  
+<style>
+  .bg-1 {
+      background-color: #1abc9c;
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  </style>
 </head>
 <body>
 
-<div class="container">
-  <div class="jumbotron">
-    <h1><center>Our Mission</center></h1>
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
-  </div>
- </div>
- <style>
-	.jumbotron{
-	background-color: #1abc9c;
-	}
-	</style>
+<div class="container-fluid bg-1 text-center">
+  <h3>TTYL</h3>
+  <img src="NEW.gif" class="img-circle" alt="Bird" width="450" height="350">
+  <h3>In Action! </h3>
+</div>
 
-</head>
-<style>
-body{
-background-color:black;
-}
-p{
-color:white;
-}
-h4{
-color:white;
-}
-h2{
-color:white;
-}
-</style>
-<body> 
-<div>
+<div class="container-fluid bg-1 text-center">
+  <h3>Our Apps</h3>
+  <p> </p>
+</div>
 
-<center><img src="http://social_media.jpg" alt="pic" height="250" width="500"></center>
-<h2><center>Don't become a statistic</center></h2>
-<h4><center> What's wrong with texting while driving?</center></h4> 
-<p>Have you ever been in a car where someone is texting and drving? It's annoying right? Especially when
-you're in the passenger seat and have to be the eyes for the driver. Wellr takes their eyes off the road for just five seconds when driving at 55 mph
- is enough time to cover the length of a football field. According to 
- 'Textinganddrivingsafety.com,' 48% of teens has seen their parents on their phones while driving. 
- Children look to their parents as a role model, and someone who can always protect them. 
- When a parent is distracted when driving it hurts their child more ways than they think.
- An email, call, social media, or text isn't worth your life or others around you.
-Our mission is to minimize the 1.6 million crashes that happen every year, that are due to distracted driving.
-Making an app like this is so important to not only us but the world around us.
- </p>
- <h4><center> What does TTYL do?</center></h4>
- <p> TTYL is a hands free mobile app that promotes safe driving for all drivers.
- Before you enter your vehicle, you open the app and press the 'Start Driving.&quot; 
- If sombody texts you when the 'Start Driving' timer is stil on and you're still in the app
-it will voice who texted you and their message, the app will also send them an automatic 
-text which the user can personalize.
-</p> 
 
-<h4><center> Why a Pistachio? </center></h4>
-<p>
- A question that we're asked frequently is "Why is your mascot a pistschio?"
-When we were laying the foundations to the app we wanted something unique and something that would standout. 
-So we chose the infamous pistachio. If you've eaten a pistachio before you would know that the shell is hard and durable, like it's guarding the nut.
-In our case the app is the shell, protecting our users from the dangers of distracted driving. The nut is of course the user, who's only job is to be safe and comfortable.
-We also wanted to give back, and give people an incentive for beig responsible. 
-So sticking with the pistachio theme, we partenered up with a charity called ---- to give back to the world 
- Every car ride you take builds a part of tree, when all parts of the tree are complete, our partner ---- then builds a tree somewhere around the world.
- Our app isnt just about saving lives, but also saving the world
-</p>
- /h4>cn
- </div>
+
 </body>
 </html>
